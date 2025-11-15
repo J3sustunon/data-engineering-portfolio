@@ -100,17 +100,6 @@ Focus: Data Engineering, Data Science, Cloud Computing, Machine Learning
 
 ---
 
-## 📈 Project Roadmap
-
-**Completed:**
-- ✅ Set up development environment
-- ✅ Master API fundamentals
-- ✅ Create GitHub portfolio
-
-**In Progress:**
-- 🔄 Stock market pipeline (Week 1 of 3)
-- 🔄 AWS certification preparation
-
 **Coming Next:**
 - Streaming analytics pipeline
 - Data quality framework
