@@ -1,0 +1,44 @@
+{
+  "BTC": {
+    "data": {
+      "amount": "95987.105",
+      "base": "BTC",
+      "currency": "USD"
+    }
+  },
+  "ETH": {
+    "data": {
+      "amount": "3196.805",
+      "base": "ETH",
+      "currency": "USD"
+    }
+  },
+  "SOL": {
+    "data": {
+      "amount": "141.785",
+      "base": "SOL",
+      "currency": "USD"
+    }
+  },
+  "ADA": {
+    "data": {
+      "amount": "0.50735",
+      "base": "ADA",
+      "currency": "USD"
+    }
+  },
+  "DOT": {
+    "data": {
+      "amount": "2.86",
+      "base": "DOT",
+      "currency": "USD"
+    }
+  },
+  "MATIC": {
+    "data": {
+      "amount": "0.1568",
+      "base": "MATIC",
+      "currency": "USD"
+    }
+  }
+}
