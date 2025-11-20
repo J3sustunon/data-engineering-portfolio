@@ -32,23 +32,23 @@ def fetch_stock_data(symbol, api_key):
         # Check if we got data
         if "Time Series (5min)" in data:
             num_points = len(data["Time Series (5min)"])
-            print(f"✅ Success! Received {num_points} data points")
+            print(f"Success! Received {num_points} data points")
             
             # Save to JSON file
             filename = f"{symbol}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
             with open(filename, 'w') as f:
                 json.dump(data, f, indent=2)
             
-            print(f"💾 Saved to {filename}")
+            print(f"Saved to {filename}")
             return data
             
         else:
-            print("❌ Error: No data received")
+            print("Error: No data received")
             print(f"Response: {data}")
             return None
             
     except Exception as e:
-        print(f"❌ Error occurred: {str(e)}")
+        print(f"Error occurred: {str(e)}")
         return None
 
 
